@@ -1,5 +1,8 @@
 # README
 
+### ERD
+![alt text](./readme-assets/railsRecipeApp.jpeg)
+
 ### User Stories
 ##### Guest
 * As a guest I want to be able to browse recipes
