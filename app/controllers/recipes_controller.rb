@@ -40,7 +40,7 @@ class RecipesController < ApplicationController
 
   # DELETE /recipes/1
   def destroy
-    if current_user && @recipe.user_id == current_user.id
+    if @recipe.user_id == current_user.id
       @recipe.destroy
     else
       render status: :unauthorized
